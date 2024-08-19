@@ -4,7 +4,7 @@ This project consists of two bash scripts designed to help you create, save, and
 
 ## Project Directory Structure
 
-/Users/freddylopez/Documents/Projects/notes-project/
+/Users/<current user>/local/notes/<current user>/
 └── notes/
     └── daily-note-YYYY-MM-DD.txt
 
