@@ -3,7 +3,7 @@
 current_user=$(whoami)
 current_date=$(date +'%Y-%m-%d')
 # Define the file name
-file_name="daily-note-${current_date}.txt"
+file_name="daily-note-${current_date}.md"
 
 # Define the directory path
 directory_path="/Users/freddylopez/local/${current_user}/notes/"
