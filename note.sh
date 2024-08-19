@@ -6,12 +6,11 @@ current_date=$(date +'%Y-%m-%d')
 file_name="daily-note-${current_date}.txt"
 
 # Define the directory path
-directory_path="/Users/freddylopez/local/${current_user}/notes/"
-
+directory_path="/Users/freddylopez//local/${current_user}/notes/"
 
 if [ ! -d "${directory_path}" ]; then
-    mkdir -p "${directory_path}"
-    echo "Created directory: ${directory_path}"
+	mkdir -p "${directory_path}"
+	echo "Created directory: ${directory_path}"
 fi
 # Check if the file exists
 if [ -f "${directory_path}/${file_name}" ]; then
