@@ -31,5 +31,5 @@ else
 fi
 # Write the input to the file and save it
 current_time=$(date +'%H:%M')
-echo "${current_time}  --  ${user_input}" >>"${directory_path}/${file_name}"
+echo "${user_input}" >>"${directory_path}/${file_name}"
 echo "Your note has been saved to ${file_name}."
