@@ -6,7 +6,7 @@ current_date=$(date +'%Y-%m-%d')
 file_name="daily-note-${current_date}.md"
 
 # Define the directory path
-directory_path="/Users/freddylopez//local/${current_user}/notes/"
+directory_path="$HOME/notes/"
 
 if [ ! -d "${directory_path}" ]; then
 	mkdir -p "${directory_path}"
@@ -32,4 +32,4 @@ fi
 # Write the input to the file and save it
 current_time=$(date +'%H:%M')
 echo "${user_input}" >>"${directory_path}/${file_name}"
-echo "Your note has been saved to ${file_name}."
+echo "Your note has been saved to ${file_name}"

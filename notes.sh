@@ -6,7 +6,7 @@ current_date=$(date +'%Y-%m-%d')
 file_name="daily-note-${current_date}.md"
 
 # Define the directory path
-directory_path="/Users/freddylopez/local/${current_user}/notes/"
+directory_path="$HOME/notes/"
 
 # Check if the file exists
 if [ -f "${directory_path}/${file_name}" ]; then
